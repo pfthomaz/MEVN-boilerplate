@@ -27,7 +27,8 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // "semi": 2
-    "semi": [2, "always"]/* ,
+    "semi": [2, "always"],
+    "vue/require-v-for-keys": false/* ,
     "space-before-function-paren": ["error", "always"] */
   }
 }
